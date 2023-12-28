@@ -77,7 +77,7 @@ const Details = () => {
         setUserName('');
         setCommentText('');
       } else {
-        alert('Please enter both your user name and comment before submitting.');
+        alert('At least one of the information cells is empty. Comment will not be published.');
       }
     }
 
